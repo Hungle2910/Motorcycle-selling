@@ -23,6 +23,54 @@
 
 ---
 
+---
+
+## 🎯 Project Goals, Audience & Features / Mục tiêu, Đối tượng & Tính năng
+
+### 🇺🇸 English Version
+
+#### 1. Purpose & Goals
+**MotoSales Commerce Platform** is an enterprise-ready Java Web MVC application designed for motorcycle showrooms. It unifies vehicle sales, spare parts cataloging, showroom pickup booking, and secure online payment processing into one cohesive system.
+
+#### 2. Key Problems Solved & Target Audience
+*   **For Customers (Convenience & Security):**
+    *   *Problem:* Friction in buying high-value motorcycles online and booking showroom visits.
+    *   *Solution:* Integrated dynamic catalog filtering, Google OAuth for instant login, secure **VNPay** sandbox payment gateway, and automated **Gmail SMTP** receipt notifications.
+*   **For Showroom Administrators (Efficiency & Analytics):**
+    *   *Problem:* Fragmented spreadsheets for managing inventory and keeping track of appointment bookings.
+    *   *Solution:* A unified Admin Dashboard pulling live data from SQL Server to manage products, categories, brands, and order statuses.
+
+#### 3. Core Features
+*   **Dynamic Catalog Filtering:** Filter motorcycles and parts by category, brand, and price ranges.
+*   **Showroom Scheduler:** Select a pickup branch and time slot during checkout.
+*   **Google OAuth 2.0 Integration:** Quick sign-in with Gmail profiles.
+*   **Secure Payment Integration:** Full VNPay integration with checksum signing and instant callbacks.
+*   **Automated Emailing:** Send HTML order receipts using JavaMail and Gmail SMTP.
+
+---
+
+### 🇻🇳 Bản tiếng Việt
+
+#### 1. Mục đích & Mục tiêu dự án
+**MotoSales Commerce Platform** là hệ thống thương mại điện tử chuyên nghiệp viết bằng Java Web MVC phục vụ cho các showroom xe máy. Hệ thống số hóa toàn bộ quy trình bán xe, phụ tùng, đặt lịch hẹn và xử lý thanh toán trực tuyến thành một quy trình nhất quán.
+
+#### 2. Vấn đề giải quyết & Đối tượng hướng tới
+*   **Đối với Khách hàng (Tiện ích & Bảo mật):**
+    *   *Vấn đề:* Khó khăn trong việc đặt trước xe máy giá trị cao trực tuyến và sắp xếp thời gian nhận xe.
+    *   *Giải pháp:* Hệ thống cho phép duyệt/lọc sản phẩm trực quan, đăng nhập nhanh qua Google OAuth, thanh toán **VNPay** an toàn và nhận hóa đơn điện tử tự động qua **Gmail SMTP**.
+*   **Đối với Quản trị viên Showroom (Hiệu suất & Thao tác):**
+    *   *Vấn đề:* Khó theo dõi tồn kho xe/phụ tùng và lịch hẹn nhận xe của khách hàng.
+    *   *Giải pháp:* Dashboard quản trị tập trung hiển thị trực quan dữ liệu từ SQL Server giúp cập nhật sản phẩm, thương hiệu và quản lý đơn đặt lịch tức thì.
+
+#### 3. Các tính năng cốt lõi
+*   **Bộ lọc danh mục thông minh:** Lọc tìm xe máy, phụ tùng theo thương hiệu, phân khúc và khoảng giá.
+*   **Đặt lịch hẹn Showroom:** Khách hàng chủ động chọn địa điểm showroom và thời gian nhận xe/tư vấn.
+*   **Đăng nhập Google OAuth 2.0:** Đăng nhập nhanh bằng Gmail cá nhân không cần đăng ký phức tạp.
+*   **Thanh toán VNPay Sandbox:** Tạo URL thanh toán bảo mật, ký mã checksum và tự động cập nhật trạng thái đơn hàng.
+*   **Gửi email hóa đơn tự động:** Gửi hóa đơn định dạng HTML tiếng Việt có dấu qua Gmail SMTP ngay sau khi thanh toán thành công.
+
+---
+
 ## Giới Thiệu Dự Án
 
 **MotoSales Commerce Platform** là hệ thống Java Web MVC dành cho showroom xe máy, hỗ trợ bán xe, phụ kiện, phụ tùng và dịch vụ bảo dưỡng. Hệ thống cho phép khách hàng duyệt danh mục sản phẩm, lọc theo thương hiệu/danh mục/khoảng giá, xem chi tiết, thêm vào giỏ hàng, đặt lịch nhận xe tại showroom và thanh toán online qua **VNPay sandbox**.
